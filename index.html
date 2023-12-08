@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+ <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <title>HOME</title>
+</head>
+<body>
+    <header>
+       <h1>Welcome to College of Business Education</h1>
+     </header>
+     
+     <section>
+       <a name="top">
+       <nav>
+         <h3 class="menuTxt">Menu</h3>
+         <ul class="navhover">
+           <li><a href="#top" >Home</a></li>
+           <li><a href="pages/about.html#top">About</a></li>
+           <li><a href="pages/history.html#top">History</a></li>
+          <li><a href="pages/news.html#top">News</a></li>
+          <li><a href="pages/programs.html#top">Programs Offered</a></li>
+          <li><a href="pages/orgs.html#top">Student Organizations</a></li>
+          <li><a href="#map">NVSU Map</a></li>
+         </ul>
+         <br>
+         <ul class="navhover">
+           <li><a href="pages/regs.html#top">Register</a></li>
+           <li><a href="pages/login.html#top">Login</a></li>
+         </ul>
+       </nav>
+       <article>
+        <a name="programs"></a>
+        <h1>Be One Of The Pythons!</h1>
+                    <p>College of Business Education Offers 2 Undergraduate Programs and Graduate Programs</p>
+        <div id="banner">
+            <div class="section">
+                <img  src="images/businessadministration1.jpg"  hspace="10">
+                <div class="description">
+                    <p>Bachelor of Sciences in Business Administration</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <img  src="images/agribusiness1.jpg"  hspace="10">
+                <div class="description">
+                    <p>Bachelor of Science in Agribusiness</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <img src="icons/right-arrow.png">
+                <div class="description">
+                    <a href="pages/programs.html#top">See more on Programs Offered</a>
+                </div>
+            </div>
+        </div>
+        </article>
+       <article>
+        <hr>
+        <h1>College News</h1>
+
+        <div id="banner">
+            <div class="section">
+                <img src="images/news1.jpg">
+            <h3>Bravo, CBEshies!</h3>
+            <p style="text-align: justify; text-indent: 25px;">At the recently conducted college - based ENTABLADO, the CBEshies
+                gave a standing ovation worthy talents. From performing arts up to the
+                literary events, the College of Business Education have it all. <a href="pages/news.html#bravo">Read More...</a></p>
+            </div>
+
+            <div class="section">
+                <img src="images/news2.jpg">
+                <h3>CBE Teacher's Day Program</h3>
+            <p style="text-align: justify; text-indent: 25px;">The College of Business Education held its Teachers'
+                Day program filled with gratitude towards our amazing educators. <a href="pages/news.html#cbe">Read More...</a></p>
+            </div>
+        </div>
+        <a class="btp" href="#top">Back to Top</a>
+       </article>
+
+       
+       <article>
+        <a name="map"></a>
+        <h2 class="title">Map Locator</h2>
+        <div id="map">
+        </div><br>
+        <a class="btp" href="#top">Back to Top</a>
+      </article>
+      
+    </section>
+       <footer>
+        <p>Developed by: Patrick D. Nava</p>
+      </footer>
+      <script src="pages/js/map.js"></script>
+</body>
+</html>
